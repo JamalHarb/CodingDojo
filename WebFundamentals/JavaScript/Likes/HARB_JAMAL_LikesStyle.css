@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.container{
+    width: 50%;
+    margin-left: 25%;
+    /* border: 1px dotted red; */
+}
+header{
+    padding: 1% 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    color: white;
+    width: 80%;
+}
+p.top{
+    text-align: center;
+    font-size: 150%;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px dotted red; */
+}
+img{
+    width: 5em;
+}
+.left-panel{
+    width: 25%;
+    height: 15em;
+    /* border: 1px dotted red; */
+}
+.left-panel div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+    border: 2px solid black;
+}
+.right-panel{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24em;
+    /* border: 1px dotted red; */
+}
+.feed{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    border: 2px solid black;
+    height: 30%;
+    padding-left: 3%;
+}
+.feed-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+    /* border: 1px dotted red; */
+}
+.name{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.name-p{
+    font-size: 130%;
+}
+.like-side{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px dotted red; */
+}
+.feed-bottom{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px dotted red; */
+}
+button.like{
+    background-color: #ffd966;
+    padding: .5em 1em;
+    box-shadow: 2px 2px black;
+}
