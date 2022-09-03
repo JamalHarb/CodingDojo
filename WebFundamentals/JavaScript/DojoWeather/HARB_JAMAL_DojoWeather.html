@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="HARB_JAMAL_DojoWeatherStyle.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-text">
+                <h1 class="header-left">DojoWeather</h1>
+                <div class="header-right">
+                    <p><a onclick="alert('loading weather report...')" href="#">Burbank</a></p>
+                    <p><a onclick="alert('loading weather report...')" href="#">Chicago</a></p>
+                    <p><a onclick="alert('loading weather report...')" href="#">Dallas</a></p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main-top-container">
+                <div class="main-top">
+                    <div class="main-top-left">
+                        <p>San Jose</p>
+                    </div>
+                    <div class="main-top-right">
+                        <p>show temperature in</p>
+                        <select onchange="changeUnit(this)" name="temp-unit">
+                            <option value="°C">°C</option>
+                            <option value="°F">°F</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="four-day-forecast">
+                <div class="day-of-week">
+                    <p class="day">Today</p>
+                    <img class="weather" src="/assets/some_rain.png" alt="rain">
+                    <p>some rain</p>
+                    <div class="day-bottom">
+                        <p class="red r1 temperature">24°</p>
+                        <p class="blue b1 temperature">18°</p>
+                    </div>
+                </div>
+                <div class="day-of-week">
+                    <p class="day">Tomorrow</p>
+                    <img class="weather" src="/assets/some_sun.png" alt="rain">
+                    <p>some sun</p>
+                    <div class="day-bottom">
+                        <p class="red r2 temperature">27°</p>
+                        <p class="blue b2 temperature">19°</p>
+                    </div>
+                </div>
+                <div class="day-of-week">
+                    <p class="day">Friday</p>
+                    <img class="weather" src="/assets/some_clouds.png" alt="rain">
+                    <p>some clouds</p>
+                    <div class="day-bottom">
+                        <p class="red r3 temperature">21°</p>
+                        <p class="blue b3 temperature">16°</p>
+                    </div>
+                </div>
+                <div class="day-of-week">
+                    <p class="day">Saturday</p>
+                    <img class="weather" src="/assets/some_sun.png" alt="rain">
+                    <p>some sun</p>
+                    <div class="day-bottom">
+                        <p class="red r4 temperature">26°</p>
+                        <p class="blue b4 temperature">21°</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-left">
+                <img src="/assets/cookie.png" alt="cookie">
+                <div class="text">
+                    <h3>Stop! Cookie time</h3>
+                    <p>We use cookies (sadly not the edible ones) to personalize
+                        content and ads, to provide social media features and to
+                        analyse our traffc. <a href="#">Read more...</a></p>
+                </div>
+            </div>
+            <button onclick="removeCookie()"><strong>I Accept</strong></button>
+        </footer>
+    </div>
+
+    <script src="HARB_JAMAL_DojoWeatherScript.js"></script>
+</body>
+</html>

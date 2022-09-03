@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+header{
+    background-color: #9fc5f8;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-text{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    color: white;
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    font-size: 120%;
+}
+.header-right a{
+    color: white;
+    text-decoration: none;
+}
+.main-top-container{
+    display: flex;
+    justify-content: center;
+    /* border: 1px dotted red; */
+}
+.main-top{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+    border-bottom: 3px solid black;
+}
+.main-top-left{
+    font-size: 150%;
+}
+.main-top-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18%;
+}
+.four-day-forecast{
+    width: 80%;
+    height: 20em;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 3%;
+    /* border: 1px dotted red; */
+}
+.day-of-week{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eeeeee;
+    width: 20%;
+}
+p.day{
+    font-size: 120%;
+}
+img.weather{
+    width: 10em;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.day-bottom{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px dotted red; */
+}
+p.red{
+    color: red;
+    font-weight: bold;
+}
+p.blue{
+    color: #327be3;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    border: 2px solid black;
+    position: fixed;
+    bottom: 0px;
+    background-color: #eeeeee;
+}
+footer img{
+    margin-right: 3%;
+}
+footer .text{
+    width: 60%;
+}
+.footer-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    /* border: 1px dotted red; */
+}
+footer button{
+    padding: 1% 3%;
+    background-color: #9fc5f8;
+    box-shadow: 3px 3px black;
+}
